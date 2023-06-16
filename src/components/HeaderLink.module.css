@@ -1,0 +1,10 @@
+.shadowtext {
+    font-family: ibm-vga8;
+    padding: 0.75rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.shadowtext:hover {
+    text-shadow: 2px 2px rgb(32, 32, 32);
+    color: var(--foreground);
+}

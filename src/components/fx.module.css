@@ -1,0 +1,20 @@
+@keyframes chromaAbberationText {
+    0% {
+        text-shadow: 
+            0px 0px transparent,
+            var(--offx) var(--offy) #ff2b22ff,
+            calc(0px - var(--offx)) calc(0px - var(--offy)) #9900ffff,
+            var(--offx1) var(--offy1) #ffffaaff,
+            calc(0px - var(--offx1)) calc(0px - var(--offy1)) #aaffaaff;
+        color: #ff000000;
+    }
+    100% {
+        text-shadow: 
+            0px 0px white,
+            0px 0px,
+            0px 0px,
+            0px 0px,
+            0px 0px;
+        color: #ffddffff;
+    }
+}
